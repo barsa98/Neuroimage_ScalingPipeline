@@ -1,12 +1,13 @@
 Neuroimaging_ScalingPipeline
 This repository contains a collection of Jupyter notebooks for MRI image preprocessing, visualization, and analysis including intensity normalization, skull stripping, tumor segmentation, and contrast-based subtraction map generation.
 The goal of this repository is to provide a reproducible pipeline for neuroimaging data exploration and quantitative analysis using open-access MRI datasets.
+
 Dataset Used:
 1.	BraTS-Africa
 Dataset Descriptor: Adewole, M., Rudie, J.D., Gbadamosi, A., Zhang, D., Raymond, C., Ajigbotoshso, J., Toyobo, O., Aguh, K.,Omidiji, O., Akinola R., Suwaid, M.A., Emegoakor, A., Ojo, N., Kalaiwo, C., Babatunde, G., Ogunleye, A., Gbadamosi, Y.,Iorpagher, K., Onuwaje M., Betiku B., Saluja, R., Menze, B., Baid, U., Bakas, S., Dako, F., Fatade A., Anazodo, U.C. (2024) Expanding the Brain Tumor Segmentation (BraTS) data to include African Populations (BraTS-Africa) (version 1) [Dataset].The Cancer Imaging Archive. https://doi.org/10.7937/v8h6-8×67
 Link: https://www.cancerimagingarchive.net/collection/brats-africa/
-2.	UNC Paired 3T-7T MRI Dataset
 
+3.	UNC Paired 3T-7T MRI Dataset
 Data Descriptor: Chen, X., Qu, L., Xie, Y. et al. A paired dataset of T1- and T2-weighted MRI at 3 Tesla and 7 Tesla. Sci Data 10, 489 (2023). https://doi.org/10.1038/s41597-023-02400-y
 Link:https://springernature.figshare.com/articles/dataset/UNC_Paired_3T7T_Dataset/23706033?backTo=%2Fcollections%2FA_paired_dataset_of_T1_and_T2weighted_MRI_at_3_Tesla_and_7_Tesla%2F6485272&file=41605158
 
@@ -41,9 +42,7 @@ Key Features
 •	Skull stripping and intensity normalization
 •	Tumor mask extraction and area quantification
 •	Generation of inter-modality subtraction maps
-•	Visual comparison of intensity and contrast patterns across MRI sequences
-
-
+•	Visual comparison of intensity and contrast patterns across MRI sequences.
 
 Dependencies
 •	Python 3.8+
